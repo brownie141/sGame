@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", game);
 //General sprite load
 var sprite = new Image();
 var spriteExplosion = new Image();
-sprite.src = "/img/elements.png";
+sprite.src = "./img/elements.png";
 
 window.onload = function() {
     spriteExplosion.src = 'https://res.cloudinary.com/dc4stsmlc/image/upload/v1570612478/Codepen/explosion_g9ncyg.png';
